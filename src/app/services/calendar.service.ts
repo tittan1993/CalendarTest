@@ -8,7 +8,7 @@ import { Calendar } from '../models/calendarModel';
 })
 export class CalendarService {
   private apiUrl =
-    'https://luegopago.blob.core.windows.net/luegopago-uploads/Pruebas%20LuegoPago/data.json'; // Ruta al archivo JSON
+    'https://luegopago.blob.core.windows.net/luegopago-uploads/Pruebas%20LuegoPago/data.json';
 
   private businessHoursStart = 9 * 60;
   private businessHoursEnd = 17 * 60;
